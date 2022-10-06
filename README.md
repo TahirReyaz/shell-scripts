@@ -1,0 +1,3 @@
+- Save these files on your computer (preferably Desktop folder) and you can run them by double clicking them after you have made them executable
+- Don't forget to make the file executable by using the command chmod +x playOverlord.sh
+- You may also need to check the 'run files' option instead of 'open files' option in you file manager
