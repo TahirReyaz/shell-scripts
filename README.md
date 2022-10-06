@@ -3,6 +3,7 @@
 ### These are the shell scripts I have written to save myself clicking here and there for the tasks I do daily
 
 - Save these files on your computer (preferably Desktop folder) and you can run them by double clicking them after you have followed the below mentioned steps
+- The path I keep files on may differ from yours, so edit that too
 - Don't forget to make the file executable by using the command
 
 ```
