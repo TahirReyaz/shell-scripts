@@ -11,6 +11,8 @@
 search_dir=$HOME/Downloads/Telegram\ Desktop/
 anime_name='Overlord'
 
+xdg-open "$search_dir"
+
 for entry in "$search_dir"*
 do
   if [[ $entry == *$anime_name* ]]
