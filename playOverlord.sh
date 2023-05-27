@@ -8,16 +8,20 @@
 # But you need to delete the episodes you have watched else it will play the same file again and again
 # Don't forget to make the file executable by using the command chmod +x playOverlord.sh
 
-search_dir=$HOME/Downloads/Telegram\ Desktop/
-anime_name='Overlord'
+search_dir=$HOME/Downloads/Telegram\ Desktop
+anime_name='Vinland'
 
 xdg-open "$search_dir"
 
-for entry in "$search_dir"*
+for entry in "$search_dir"/*
 do
   if [[ $entry == *$anime_name* ]]
   then
-    vlc "$entry"
-    break
+    xdg-open "$entry"
+    for eps in "$entry"/*
+    do
+      vlc "$eps"
+      break
+    done
   fi
 done

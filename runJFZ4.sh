@@ -4,4 +4,4 @@
 
 # This script opens a book pdf which I need to read often
 
-evince -f ~/Downloads/Telegram\ Desktop/JFZ\ Book\ 4.pdf
+evince -f ~/Downloads/Telegram\ Desktop/JFZ\ Book\ 5.pdf
