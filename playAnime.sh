@@ -19,10 +19,7 @@ while read -r anime_name; do
     do
     if [[ $entry == *$anime_name* ]]
     then
-        echo $found
         found="true"
-        echo $found
-        echo $entry
         xdg-open "$entry"
         for eps in "$entry"/*
         do
@@ -31,6 +28,7 @@ while read -r anime_name; do
         done
     fi
     done
+    # Dont play the next anime in the watchlist if the files for this one exist
     if [[ "$found" == "true" ]] 
     then
         break
