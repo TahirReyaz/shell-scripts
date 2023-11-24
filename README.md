@@ -7,7 +7,7 @@
 - Don't forget to make the file executable by using the following command in the terminal (Make sure to be in the same directory as your script or provide correct path in the command)
 
 ```
-chmod +x playOverlord.sh
+chmod +x playAnime.sh
 ```
 
 - In your file manager menu, You may also need to tell your system to run the file instead of opening it in a text editor by
